@@ -4,6 +4,7 @@ pipeline {
     stage('devopstwo') {
       steps {
         sh 'echo "devops two";'
+        sh 'echo "hello Devops"'
       }
     }
 
